@@ -1,0 +1,74 @@
+body{
+    background: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    padding: 30px;
+    }
+nav{
+    background: rgba(146, 145, 145, 0.288);
+}
+nav ul{
+    margin:0px;
+    padding-left:10px;
+}
+nav li{
+    display: inline;
+    padding: 10px;
+}
+nav a{
+    color:wheat;
+    text-decoration: none;
+    font-size: 150%;
+}
+nav a:hover{
+    background: rgba(255, 232, 232, 0.116);
+}
+h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+p, li{
+    font-size: 16px;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+#contact-form{
+    border: 1px dashed rgb(253, 253, 253);
+    padding: 20px;
+    margin:10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px auto;
+    /* text-align: center; */
+}
+label, input{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+input{
+    padding: 5px;
+}
+#submit{
+    width: 40%;
+    background: rgba(245, 245, 245, 0.185);
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    border: 2px solid wheat;
+    border-radius: 2px;
+    padding: 10px;
+}
+#submit:hover{
+    background: rgba(90, 89, 89, 0.185);
+}

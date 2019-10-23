@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+
+</head>
+<body>
+
+    <% include partials/nav.ejs %>
+
+    <h1>Contact Us!</h1>
+    <p> Contact name: <%= qs.name %> </p>
+    <p> Department: <%= qs.dept %> </p>
+    <p>Email: <%= qs.name%>@hotmail.com</p>
+
+  
+    <form id="contact-form" method="POST" action="/contact">
+        <label for="name">Who do you want to contact?</label>
+        <input type="text" name="name" value=<%= qs.name %>>
+        <label for="department">Who department?</label>
+        <input type="text" name="dept" value=<%= qs.dept %>>
+        <label for="email">Your email</label>
+        <input type="email" name="email">
+        <input id="submit" type="submit" value='submit'>
+    </form>
+
+
+</body>
+</html>
